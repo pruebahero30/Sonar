@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Consulta de usuario por ID" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-11-18T15:55:48.429Z" hostname="DESKTOP-TADP0B8" time="2.412">
+  <properties/>
+  <testcase name="Consultar un usuario existente" classname="Consulta de usuario por ID" time="2.412"/>
+  <system-out><![CDATA[
+?[1mScenario:?[22m Consultar un usuario existente                 ?[90m# src/test/resources/features/usuarios/consultar_usuario.feature:3?[39m
+  ?[32m✔?[39m ?[32m?[1mGiven ?[22mque el servicio de usuarios está disponible?[39m    ?[90m# com.ejemplo.steps.ConsultarUsuarioSteps.queElServicioDeUsuariosEstaDisponible()?[39m
+  ?[32m✔?[39m ?[32m?[1mWhen ?[22mconsulto el usuario con id ?[1m2?[22m?[39m                    ?[90m# com.ejemplo.steps.ConsultarUsuarioSteps.consultoElUsuarioConId(java.lang.Integer)?[39m
+  ?[32m✔?[39m ?[32m?[1mThen ?[22mel código de respuesta es ?[1m200?[22m?[39m                   ?[90m# com.ejemplo.steps.ConsultarUsuarioSteps.elCodigoDeRespuestaEs(java.lang.Integer)?[39m
+  ?[32m✔?[39m ?[32m?[1mAnd ?[22mel email del usuario es ?[1m"janet.weaver@reqres.in"?[22m?[39m ?[90m# com.ejemplo.steps.ConsultarUsuarioSteps.elEmailDelUsuarioEs(java.lang.String)?[39m
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
