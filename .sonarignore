@@ -1,1 +1,35 @@
+# --- Directorios Comunes a Ignorar ---
+
+# Directorios de dependencias/paquetes (comunes en muchos ecosistemas)
+node_modules/
+vendor/
+.venv/
+
+# Directorios de build/compilación/cache
+dist/
 build/
+out/
+.gradle/
+target/
+
+# Directorios y archivos de configuración o CI/CD (generalmente no se analizan)
+.github/
+.vscode/
+.idea/
+jenkins/
+Dockerfile
+docker-compose.yml
+
+# --- Archivos Específicos a Ignorar ---
+
+# Archivos de logs
+*.log
+logs/
+
+# Archivos de testing/ejemplos/mocks
+*/.test.js
+*/.spec.ts
+tests/mocks/
+
+# Archivos específicos por nombre (si están en cualquier subdirectorio)
+**/legacy.js
